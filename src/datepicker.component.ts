@@ -296,7 +296,7 @@ export class DatepickerComponent implements OnInit, OnChanges {
   @Input() calendarDays: Array<number>;
   @Input() currentMonth: string;
   @Input() dayNames: Array<String>;
-  @Input() hoveredDay: Date;
+  @Input() hoveredDay: Date | null;
   calendar: Calendar;
   currentMonthNumber: number;
   currentYear: number;
