@@ -1,8 +1,7 @@
 import {
-  animate, Component, ElementRef, EventEmitter, Input, keyframes, OnChanges,
-  OnInit, Output, Renderer, SimpleChange, state, style, transition, trigger
+    Component, ElementRef, EventEmitter, Input, OnChanges, OnInit, Output, Renderer, SimpleChange,
 } from '@angular/core';
-
+import {animate, state, style, transition, trigger, keyframes} from '@angular/animations';
 import { Calendar } from './calendar';
 
 
